@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    
+    <link rel="stylesheet"  href="storeStyle.css">  
+   
+
+</head>
+<body>
+    <div id="EcommerceContainer">
+        <header>
+        <ul class='header'>
+
+            <li>
+                <a href="./home.html">HOME</a>
+            </li>
+            <li>
+                <a href="#">STORE</a>
+            </li>
+            <li>
+                <a href="./about.html">ABOUT</a>
+            </li>
+
+            <button  class="cart-holder" >
+                cart<span class='cart-number'>0</span>
+            </button>
+        </ul>
+    
+            <h1  class="band name large">The Generics </h1>
+       </header>
+           
+       <section>
+        <p id="Genere">Music</p>
+        <div>
+            <h1 id="name">Album1</h1>
+            <img id="images" src="http://127.0.0.1:5503/images/Album%204.png">
+            <h2 id="prices">$<span>12.99</span></h2>
+            <button class="addToCart">ADD TO CART</button>
+        </div>
+
+        <br>
+        <br>
+        
+        <div>
+            <h1 id="name">Album2</h1>
+            <img id="images" src="http://127.0.0.1:5503/images/Album%202.png">
+            <h2 id="prices">$<span>12.99</span></h2>
+            <button class="addToCart">ADD TO CART</button>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <h1 id="name">Album3</h1>
+            <img id="images" src="http://127.0.0.1:5503/images/Album%203.png">
+            <h2 id="prices">$<span>14.99</span></h2>
+            <button class="addToCart">ADD TO CART</button>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <h1 id="name">Album4</h1>
+            <img id="images" src="http://127.0.0.1:5503/images/Album%204.png">
+            <h2 id="prices">$<span>9.99</span></h2>
+            <button class="addToCart">ADD TO CART</button>
+        </div>
+       </section>
+
+                            
+        <nav id="finalCart">
+                                
+           <br>
+               <h1 id="carth">CART</h1>
+                <br>
+                <p1 id="item">ITEM</p1>
+                <p2 id="price">PRICE</p2>
+                <p3 id="quantity">QUANTITY</p3>
+                <ul class="cartList">
+
+                </ul>
+                <br>
+                <p4 id="total">Total :<span id="totalPrice"> 0</span></p4>
+                <button id="purchase">Purchase</button>
+                </nav>
+                <br>
+                <br>
+                <button id="see" > See The Cart </button>       
+
+                <div class="footer-title">
+                                    The Generics
+          
+                
+                </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+</body>
+<script src="stores.js" defer></script>
+</html>
